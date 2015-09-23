@@ -1,15 +1,15 @@
-*Installation
+##Installation
 - rbenv, ruby
 - libmagic library https://github.com/blackwinter/ruby-filemagic
 - bundle install
 
-*Run service: 
+##Run service: 
 
 ```
 ruby app.rb
 ```
 
-*Send request:
+##Send request:
 - Send file to convert from json to xml (data must be specified by -F)
 ```
 curl -i -v -X POST -F file=@path/to/file -F i=json -F o=xml http://localhost:4567/
